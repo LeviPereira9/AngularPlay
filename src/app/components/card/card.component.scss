@@ -1,0 +1,22 @@
+.card__container{
+
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  border: 3px solid #3E4357;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-direction: column;
+
+  height: 300px;
+  width: 220px;
+
+  &__photo{
+    transition: transform .8s;
+
+    &:hover{
+      transform: scale(1.1);
+    }
+
+  }
+}

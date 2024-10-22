@@ -1,0 +1,15 @@
+.card-label__container{
+  position: absolute;
+  bottom: 80px;
+  right: 0;
+
+  &__content{
+    text-align: center;
+    background-color: #242424f3;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px 0px 0px 5px;
+  }
+}

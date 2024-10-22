@@ -1,0 +1,14 @@
+<div class="home__container">
+
+
+  @for (item of dataFake; track item) {
+    <app-card
+    [gameCover]="item.img"
+    [gameLabel]="item.label"
+    [gameType]="item.gameType"
+    [gamePrice]="item.gamePrice"
+    />
+  }
+
+  <app-card/>
+</div>

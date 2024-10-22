@@ -1,0 +1,42 @@
+.card-price__container{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  background-color: rgba(0,0,0, 0.8);
+  padding: 10px;
+
+  p, h3, span{
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  &__title{
+    padding-bottom: 3px;
+  }
+
+  &__value{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__console{
+
+      span{
+        font-weight: bold;
+        color: aqua;
+        padding-right: 5px;
+      }
+    }
+
+    &__money{
+
+    }
+
+  }
+
+}

@@ -1,0 +1,38 @@
+.menu__container{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 35px;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  box-shadow: 0 0 6px 0 rgba(0,0,0, 0.5);
+  background-color: white;
+
+
+  &__logo{
+
+    img{
+      cursor: pointer;
+      width: 140px;
+      height: 32px;
+    }
+  }
+
+  &__list{
+    display: flex;
+    gap: 16px;
+
+    a{
+      color: black;
+      font-weight: bold;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+
+  }
+
+}
